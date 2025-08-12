@@ -1,0 +1,14 @@
+Basic cmd to change c to d directory type - D: 
+GIT Commands
+
+Install GIT from browser
+
+1) create one repository name GitDocs
+2) now open cmd and config GIT using - git config --global user.name "Muthuohmprakaash" press ENTER
+3) now again type - git config --global user.name "omprakaash490@gmail.com" press ENTER
+4) now type git clone https://github.com/Muthuohmprakaash/GitDocs.git // this is https link. After creating repository in GitHub it will be visible.
+5) now in our local there will be .git folder which is hidden inside the repository folder. This folder is the link between our local system and GitHub.
+6) git add comment used to help us by getting ready for staging.
+7) git commit -m "DOCS: Give your message" comment used to help us by moved the file to staging.
+8) git push comment will help us by what are the files are staged those files are sent to Cloud(repository).
+9) git reset help us to unstage the files from staging.

@@ -1,7 +1,7 @@
 Basic cmd to change c to d directory type - D: 
 GIT Commands
 
-Install GIT from browser
+Install GIT from browser.
 
 1) create one repository name GitDocs
 2) now open cmd and config GIT using - git config --global user.name "Muthuohmprakaash" press ENTER

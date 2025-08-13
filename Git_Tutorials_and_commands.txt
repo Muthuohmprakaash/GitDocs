@@ -26,18 +26,16 @@ Install GIT from your browser.
 20) Use: git branch -a to show all branches, including those created on GitHub.
 21) Use: git log to see the commit history and log messages.
 
-Extra Points:
+Extra Commands:
 22) Use: git remote -v to view the remote repository URLs.
 23) Use: git rm filename to remove a file from the repository and staging area.
 24) Use: git fetch to download changes from the remote repository without merging them.
 25) Use: git merge branchname to merge another branch into.
 26) Use: git init to initialize a new Git repository.
-
-27) Use: git clone <repository-url> to copy a remote repository to your local machine.
-28) Use: git mv oldname newname to rename or move a file in your repository.
-29) Use: git show to display information about a specific commit.
-30) Use: git tag <tagname> to create a tag for a specific commit.
-31) Use: git config --list to view all Git configuration settings.
-32) Use: git help <command> to get help about any Git command.
-33) Use: git clean -f to remove untracked files from your working directory.
-34) Use: git reflog to view the history of changes to the tip of branches and other references.
+27) Use: git mv oldname newname to rename or move a file in your repository.
+28) Use: git tag <tagname> to create a tag for a specific commit.
+29) Use: git config --list to view all Git configuration settings.
+30) Use: git help <command> to get help about any Git command.
+31) Use: git clean -f to remove untracked files from your working directory.
+32) Use: git reflog to view the history of changes to the tip of branches and other references.
+33) Use: git show to display information about a specific commit.

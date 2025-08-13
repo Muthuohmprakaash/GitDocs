@@ -1,19 +1,19 @@
-Basic cmd to change c to d directory type - D: 
+To change from the C: to the D: directory, type: D:
+
 GIT Commands
 
-Install GIT from browser.
+Install GIT from your browser.
 
-1) create one repository name GitDocs
-2) now open cmd and config GIT using - git config --global user.name "Muthuohmprakaash" press ENTER
-3) now again type - git config --global user.name "omprakaash490@gmail.com" press ENTER
-4) now type git clone https://github.com/Muthuohmprakaash/GitDocs.git // this is https link. After creating repository in GitHub it will be visible.
-5) now in our local there will be .git folder which is hidden inside the repository folder. This folder is the link between our local system and GitHub.
-6) git add .\Git_Tutorials_and_commands.txt comment used to help us by getting ready for staging.
-7) git commit -m "DOCS: Give your message" comment used to help us by moved the file to staging.
-8) while writing commit message visit this website https://www.conventionalcommits.org/en/v1.0.0/ 
-9) git push origin(https link while creating repository instead of giving full link. git remembers it when we say origin) main(branch name this can be main or master or any other branch)comment will help us by what are the files are staged those files are sent to Cloud(repository).
-10) git reset help us to unstage the files from staging.
-11) git pull : if you change anything in the file using opening repository in github and changed there it will not reflect in the local system. to make changes in local we to use git pull.
-12) git status used to check the at staging we are there.
-13) git diff used to check what are difference of changes we did in before and after.
- 
+1) Create a repository named GitDocs.
+2) Open the command prompt and configure GIT using: git config --global user.name "Muthuohmprakaash" and press ENTER.
+3) Next, type: git config --global user.email "omprakaash490@gmail.com" and press ENTER.
+4) Type: git clone https://github.com/Muthuohmprakaash/GitDocs.git // This is the HTTPS link. After creating the repository on GitHub, it will be visible.
+5) In your local system, there will be a hidden .git folder inside the repository folder. This folder links your local system to GitHub.
+6) Use: git add .\Git_Tutorials_and_commands.txt to stage your changes.
+7) Use: git commit -m "DOCS: Give your message" to commit the staged file.
+8) For writing commit messages, visit: https://www.conventionalcommits.org/en/v1.0.0/
+9) Use: git push origin main (where 'origin' is the remote and 'main' is the branch name; this can be 'main', 'master', or any other branch). This command pushes the staged files to the cloud repository.
+10) Use: git reset to unstage files.
+11) Use: git pull to update your local repository with changes made on GitHub.
+12) Use: git status to check your current status in the staging area.
+13) Use: git diff to see the differences between changes made before and after.

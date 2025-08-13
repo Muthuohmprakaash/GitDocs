@@ -8,7 +8,10 @@ Install GIT from browser
 3) now again type - git config --global user.name "omprakaash490@gmail.com" press ENTER
 4) now type git clone https://github.com/Muthuohmprakaash/GitDocs.git // this is https link. After creating repository in GitHub it will be visible.
 5) now in our local there will be .git folder which is hidden inside the repository folder. This folder is the link between our local system and GitHub.
-6) git add comment used to help us by getting ready for staging.
+6) git add .\Git_Tutorials_and_commands.txt comment used to help us by getting ready for staging.
 7) git commit -m "DOCS: Give your message" comment used to help us by moved the file to staging.
-8) git push comment will help us by what are the files are staged those files are sent to Cloud(repository).
-9) git reset help us to unstage the files from staging.
+8) while writing commit message visit this website https://www.conventionalcommits.org/en/v1.0.0/ 
+9) git push origin(https link while creating repository instead of giving full link. git remembers it when we say origin) main(branch name this can be main or master or any other branch)comment will help us by what are the files are staged those files are sent to Cloud(repository).
+10) git reset help us to unstage the files from staging.
+11) git pull : if you change anything in the file using opening repository in github and changed there it will not reflect in the local system. to make changes in local we to use git pull.
+12) 

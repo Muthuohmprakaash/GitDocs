@@ -1,19 +1,33 @@
-To change from the C: to the D: directory, type: D:
+To switch from the C: drive to the D: drive in the command prompt, type: D:
 
 GIT Commands
 
 Install GIT from your browser.
 
-1) Create a repository named GitDocs.
+1) Create a repository named GitDocs on GitHub.
 2) Open the command prompt and configure GIT using: git config --global user.name "Muthuohmprakaash" and press ENTER.
-3) Next, type: git config --global user.email "omprakaash490@gmail.com" and press ENTER.
-4) Type: git clone https://github.com/Muthuohmprakaash/GitDocs.git // This is the HTTPS link. After creating the repository on GitHub, it will be visible.
+3) Then, type: git config --global user.email "omprakaash490@gmail.com" and press ENTER.
+4) Clone your repository using: git clone https://github.com/Muthuohmprakaash/GitDocs.git. This is the HTTPS link; after creating the repository on GitHub, it will be visible.
 5) In your local system, there will be a hidden .git folder inside the repository folder. This folder links your local system to GitHub.
 6) Use: git add .\Git_Tutorials_and_commands.txt to stage your changes.
-7) Use: git commit -m "DOCS: Give your message" to commit the staged file.
+7) Use: git commit -m "DOCS: Your message here" to commit the staged file.
 8) For writing commit messages, visit: https://www.conventionalcommits.org/en/v1.0.0/
-9) Use: git push origin main (where 'origin' is the remote and 'main' is the branch name; this can be 'main', 'master', or any other branch). This command pushes the staged files to the cloud repository.
-10) Use: git reset to unstage files.
+9) Use: git push origin main (where 'origin' is the remote and 'main' is the branch name; this can be 'main', 'master', or any other branch). This command pushes the committed files to the remote repository.
+10) Use: git reset to unstage files from the staging area.
 11) Use: git pull to update your local repository with changes made on GitHub.
-12) Use: git status to check your current status in the staging area.
-13) Use: git diff to see the differences between changes made before and after.
+12) Use: git status to check the current status of your working directory and staging area.
+13) Use: git diff to see the differences between changes made before and after staging.
+14) Use: git branch to check which branch you are currently working in. The active branch will be shown in green; other branches will be in white.
+15) Use: git checkout -b backend to create a new branch named 'backend'. You will be switched from the main branch to the newly created branch.
+16) Use: git checkout main to switch back to the main branch from another branch.
+17) Use: git stash to temporarily save changes that are not yet ready to be committed.
+18) Use: git stash pop to reapply the stashed changes.
+19) Use: git branch -M frontend to rename the current branch to 'frontend'.
+20) Use: git branch -a to show all branches, including those created on GitHub.
+21) Use: git log to see the commit history and log messages.
+
+Extra Points:
+22) Use: git remote -v to view the remote repository URLs.
+23) Use: git rm filename to remove a file from the repository and staging area.
+24) Use: git fetch to download changes from the remote repository without merging them.
+25) Use: git merge branchname to merge another branch into
